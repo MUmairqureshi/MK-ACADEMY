@@ -1,0 +1,63 @@
+.verification-box {
+    display: flex;
+    gap: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    display: none;
+}
+
+.verification-box input {
+    width: 75px;
+    height: 75px;
+}
+
+html {
+    position: relative;
+    height: 100%;
+  }
+
+/* body {
+    position: relative;
+} */
+
+
+.formArea, .mb-190 {
+    margin-bottom: 88px;
+}
+
+
+.loginTab {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.authBtns {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    min-width: 192px;
+    font-weight: 500;
+}
+
+.authBtns:hover {
+    background-color: #ec202f;
+    color: #fff;
+}
+
+.activeLogin {
+    background-color: #ec202f;
+    color: #fff;
+}
+
+
+@media(max-width: 640px) {
+
+.verification-box input {
+    width: 50px;
+    height: 50px;
+}
+}

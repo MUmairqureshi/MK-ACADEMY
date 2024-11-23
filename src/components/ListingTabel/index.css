@@ -1,0 +1,60 @@
+th {
+  background-color: transparent !important;
+}
+td {
+  background-color: transparent !important;
+}
+
+table.dataTable tr:nth-child(even) {
+  background-color: #00694a !important;
+  color: #ffffff !important;
+  text-align: center;
+  font-weight: bold;
+}
+.table.dataTable tr:nth-child(even) td {
+  color: #ffffff !important;
+}
+table.dataTable tr:nth-child(odd) {
+  background-color: #c4dbd4 !important;
+  color: #fff;
+  text-align: center;
+}
+
+.table-centered {
+  text-align: center;
+}
+
+.table-centered th,
+.table-centered td {
+  vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+  .table-responsive {
+    overflow-x: scroll !important;
+  }
+}
+.paginate_button {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  color: #007bff;
+  border-radius: 4px;
+}
+
+.paginate_button.current {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.paginate_button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.paginate_button:hover:not(.disabled) {
+  background-color: #0056b3;
+  color: #fff;
+}

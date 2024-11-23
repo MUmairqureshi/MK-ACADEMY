@@ -1,0 +1,64 @@
+.accordion-header button {
+    font-size: 18px;
+}
+
+.accordion-body {
+    font-size: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: #273993 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(1) !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+}
+
+
+.logoBox img {
+    width: 270px;
+}
+
+.logoBox {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.qcmLogo {
+    text-align: center;
+}
+
+.qcmLogo img {
+    width: 335px;
+    max-width: 100%;
+}
+
+.plusPage img {
+    width: 65%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.packageBox {
+    margin-bottom: 190px;
+}.heading {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

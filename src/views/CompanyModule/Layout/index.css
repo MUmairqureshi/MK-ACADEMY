@@ -1,0 +1,7 @@
+.sideLink.active, .sideLink.active:hover {
+    border-bottom: 1.5px solid #ec202f;
+}
+
+.sideLink {
+    border-bottom: 1.5px solid #0000;
+}

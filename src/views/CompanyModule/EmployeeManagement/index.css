@@ -1,0 +1,23 @@
+.emloyeeTable .inputWrapper {
+    flex-grow: 1;
+}
+
+.tableDropdown.dropdown button::after {
+    display: none !important;
+}
+
+.tableDropdown.dropdown button {
+    font-size: 16px;
+    outline: none;
+}
+
+button:disabled {
+    opacity: 0.3;
+    background-color: #1e1d1d;
+    border: grey;
+    font-weight: 400;
+}
+
+/* .emloyeeTable .tableDropdown.dropdown {
+    position: absolute;
+} */

@@ -1,0 +1,30 @@
+.summary_main {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.summary_heading_price {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.summary_main .actionButton {
+    margin-top: 10px;
+}
+.summary_main a {
+    background-color: #000f63;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+}
+.actionBtn button {
+    padding: 3px 19px;
+    background-color: #253c8c;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}

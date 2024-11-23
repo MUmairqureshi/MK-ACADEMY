@@ -1,0 +1,20 @@
+.inPerson_section {
+    text-align: center;
+    padding: 50px 0;
+}.inPerson_section p {
+    font-size: 20px;
+    font-weight: bold;
+}.inPerson_section h2 {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: bold;
+}.actionBtn {
+    padding-top: 10px;
+}.actionBtn a {
+    padding: 8px 15px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    display: inline-block;
+}

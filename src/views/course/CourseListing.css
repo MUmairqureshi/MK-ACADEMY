@@ -1,0 +1,37 @@
+
+.list_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+ul {
+  list-style: none ;
+  font-weight: 700;
+  font-size: 18px;
+}
+.list_group li {
+  cursor: pointer ;
+  border: 2px solid #253b8d !important ;
+  background-color: #253b8d !important;
+  border-radius: 10px !important;
+}
+li.courseName.active {
+  color: #f9d51d !important;
+  background-color: #fff !important ;
+}
+.list_group li:hover {
+  background-color: #fff !important;
+  color: #9eb1ef !important;
+}
+.list_group li {
+    /* border: 2px solid #253b8d !important;
+    padding: 16px 115px !important;
+    border-radius: 40px !important;
+    background-color: #253b8d !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 34px !important; */
+} 
